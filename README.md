@@ -3,7 +3,7 @@ Setup and Configure OpenLDAP using Docker
 
 OpenLDAP + phpldapadmin (Docker / Docker Compose)
 
-> R.H (Ram.Hakimi@gmail.com)
+> huangych008@gmail.com
 >
 
 
