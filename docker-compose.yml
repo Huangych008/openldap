@@ -13,7 +13,7 @@ services:
       - ./data/slapd/config:/etc/ldap/slapd.d
     environment: 
       - LDAP_ORGANISATION=rhuanglocal
-      - LDAP_DOMAIN=rhuanghlocal.com
+      - LDAP_DOMAIN=rhuanglocal.com
       - LDAP_ADMIN_USERNAME=admin
       - LDAP_ADMIN_PASSWORD=admin_pass
       - LDAP_CONFIG_PASSWORD=config_pass
