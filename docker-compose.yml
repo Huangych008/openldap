@@ -1,7 +1,7 @@
 version: '1.0'
 services:
   openldap:
-    image: rhuang/openldap:latest
+    image: osixia/openldap:latest
     container_name: openldap
     hostname: openldap
     ports: 
@@ -28,7 +28,7 @@ services:
       - openldap
   
   phpldapadmin:
-    image: rhuang/phpldapadmin:latest
+    image: osixia/phpldapadmin:latest
     container_name: phpldapadmin
     hostname: phpldapadmin
     ports: 
